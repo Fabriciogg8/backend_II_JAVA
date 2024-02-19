@@ -26,10 +26,3 @@ logs/
 application.properties
 application.yml
 
-# Carpetas específicas de cada microservicio que quieres ignorar
-/account-service-dh/
-/config-server/
-/currency-converter-service/
-/eureka-server/
-/product-service/
-/user-service/
