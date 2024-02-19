@@ -1,0 +1,35 @@
+# Bytecode y archivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de construcción de Maven
+target/
+build/
+
+# Dependencias de Maven
+lib/
+
+# Archivos y carpetas de IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs y archivos temporales
+logs/
+*.log
+*.tmp
+
+# Archivos de configuración de Spring Boot
+application.properties
+application.yml
+
+# Carpetas específicas de cada microservicio que quieres ignorar
+/account-service-dh/
+/config-server/
+/currency-converter-service/
+/eureka-server/
+/product-service/
+/user-service/
